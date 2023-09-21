@@ -1,0 +1,123 @@
+body {
+
+    text-align: center;
+
+}
+
+.page {
+
+    width: 1092px;
+    margin: 0px auto 0;
+    padding-top: 65px;
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 107px;
+}
+
+ul {
+
+    list-style: none;
+    display: flex;
+
+    gap: 64px;
+    margin: 0;
+    padding: 0;
+
+    font-family: JetBrains Mono;
+}
+
+ul li a {
+
+    text-decoration: none; /* Remove o sublinhado */
+    color: #FFF; /* Defina a cor do texto */
+
+}
+
+span {
+
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+h1 {
+
+    color: #FFF;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    
+
+}
+
+p {
+    color: #C2C2C2;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 28px;
+
+    
+
+    height: 168px;
+    width: 604px;
+
+}
+
+.cor-text1 {
+
+    color: #C2C2C2;
+    font-weight: bold;
+}
+
+footer {
+
+    padding-top: 135px;
+    color: #FFF;
+
+    font-family: JetBrains Mono;
+
+}
+
+footer a {
+
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+
+#line {
+
+    width: 578px;
+    margin: auto;
+    border: 1px solid #00BFA6;
+    margin-bottom: 30px;
+}
+
+#cadeado {
+
+    position: fixed;
+    bottom: 0; /* Coloca a imagem na parte inferior da página */
+    left: 0; /* Coloca a imagem no canto esquerdo */
+    padding: 10px;
+}
